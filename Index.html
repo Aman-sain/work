@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <i class="uil uil-bars navOpen" aria-label="Open Navigation Menu"></i>
+            <div id="logo"></div>
+            <a href="#" class="logo">NTRO</a>
+
+            <ul class="nav-links">
+                <i class="uil uil-times navClose" aria-label="Close Navigation Menu"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Division 1</a></li>
+                <li><a href="#">Division 2</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">CTTI</a>
+                    <i class="uil uil-angle-down dropdown-icon"></i>
+                    <div class="dropdown-content">
+                        <a href="./training.html">Traning</a>
+                        <a href="#">Capacity and devlopment</a>
+                        <a href="./file.html">library </a>
+                        <a href="#">About us</a>
+                    </div>
+                </li>
+            </ul>
+            
+            <i class="uil uil-search search-icon" id="searchIcon" aria-label="Open Search Box"></i>
+            <div class="search-box">
+                <i class="uil uil-search search-icon"></i>
+                <input type="text" placeholder="Search here..." aria-label="Search here..." />
+            </div>
+        </nav>
+    </header>
+    
+    <script src="navbar.js" defer></script>
+</body>
+</html>
